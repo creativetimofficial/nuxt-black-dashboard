@@ -6,7 +6,6 @@
     :transparent="true"
   >
     <div slot="brand" class="navbar-wrapper">
-      <div class="navbar-minimize d-inline"><sidebar-toggle-button /></div>
       <div
         class="navbar-toggle d-inline"
         :class="{ toggled: $sidebar.showSidebar }"

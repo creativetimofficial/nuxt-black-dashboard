@@ -6,7 +6,6 @@
     :transparent="true"
   >
     <div slot="brand" class="navbar-wrapper">
-      <div class="navbar-minimize d-inline"><sidebar-toggle-button /></div>
       <div
         class="navbar-toggle d-inline"
         :class="{ toggled: $sidebar.showSidebar }"
@@ -17,7 +16,7 @@
           <span class="navbar-toggler-bar bar3"></span>
         </button>
       </div>
-      <a class="navbar-brand" href="#pablo">{{ routeName }}</a>
+      <a class="navbar-brand ml-xl-3 ml-5" href="#pablo">{{ routeName }}</a>
     </div>
 
     <ul class="navbar-nav" :class="$rtl.isRTL ? 'mr-auto' : 'ml-auto'">
