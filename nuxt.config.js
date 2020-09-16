@@ -13,6 +13,9 @@
 
  * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
  */
+
+let isProd = process.env.NODE_ENV === 'production'
+
 export default {
   mode: 'universal',
   /*
@@ -35,6 +38,7 @@ export default {
     }
   },
   router: {
+    base: isProd ? '/nuxt-black-dashboard/' : '',
     linkExactActiveClass: 'active'
   },
   /*
