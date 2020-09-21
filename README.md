@@ -4,7 +4,7 @@
 
 ![version](https://img.shields.io/badge/version-1.0.0-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/ct-nuxt-black-dashboard-pro.svg?maxAge=2592000)]() [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/ct-nuxt-black-dashboard-pro.svg?maxAge=2592000)]()  [![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/E4aHAQy)
 
-![Product Gif]()
+![Product Gif](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/nuxt-black-dashboard/opt_bd_nuxjs_thumbnail.jpg)
 
 
 [Nuxt Black Dashboard](https://demos.creative-tim.com/nuxt-black-dashboard) is a beautiful Bootstrap 4 Admin Dashboard that comes in 2 versions: Dark and Light Mode. If you are looking for a tool to manage and visualize data about your business, this dashboard is the thing for you. It combines colors that are easy on the eye, spacious cards, beautiful typography, and graphics.
@@ -58,7 +58,7 @@ We are very excited to share this dashboard with you and we look forward to hear
 
 | Django | Flask | Laravel | Nuxt |
 | --- | --- | --- | --- |
-| [![Black Dashboard Django](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/black-dashboard-django/opt_bdfree_django_thumbnail.jpg)](https://www.creative-tim.com/product/black-dashboard-django) | [![Black Dashboard Flask](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/black-dashboard-flask/opt_bd_flask_thumbnail.jpg)](https://www.creative-tim.com/product/black-dashboard-flask) |[![Black Dashboard Laravel](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/black-dashboard-laravel/opt_blk_laravel_thumbnail.jpg)](https://www.creative-tim.com/product/black-dashboard-laravel) |[![Nuxt Black Dashboard](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/vue-black-dashboard/nuxt-black-dashboard.jpg)](https://www.creative-tim.com/product/nuxt-black-dashboard) |
+| [![Black Dashboard Django](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/black-dashboard-django/opt_bdfree_django_thumbnail.jpg)](https://www.creative-tim.com/product/black-dashboard-django) | [![Black Dashboard Flask](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/black-dashboard-flask/opt_bd_flask_thumbnail.jpg)](https://www.creative-tim.com/product/black-dashboard-flask) |[![Black Dashboard Laravel](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/black-dashboard-laravel/opt_blk_laravel_thumbnail.jpg)](https://www.creative-tim.com/product/black-dashboard-laravel) |[![Nuxt Black Dashboard](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/nuxt-black-dashboard/opt_bd_nuxjs_thumbnail.jpg)](https://www.creative-tim.com/product/nuxt-black-dashboard) |
 
 ## Demo
 
