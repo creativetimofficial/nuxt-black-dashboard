@@ -71,6 +71,13 @@
             icon: 'tim-icons icon-world',
             path: localePath('/rtl', 'ar') }"
         ></sidebar-item>
+
+        <li class="active-pro">
+          <a href="https://www.creative-tim.com/product/nuxt-black-dashboard-pro" target="_blank">
+            <i class="tim-icons icon-spaceship"></i>
+            <p>Upgrade to PRO</p>
+          </a>
+        </li>
       </template>
     </side-bar>
     <!--Share plugin (for demo purposes). You can remove it if don't plan on using it-->
