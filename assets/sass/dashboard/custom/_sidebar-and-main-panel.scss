@@ -626,6 +626,12 @@
       -webkit-overflow-scrolling: touch;
     }
 
+    .sidebar .nav>li.active-pro {
+      position: absolute;
+      width: 100%;
+      bottom: 10px;
+    }
+
 }
 
 @include media-breakpoint-down(sm){
