@@ -83,7 +83,7 @@ The documentation for the Nuxt Black Dashboard is hosted at our [website](https:
 Within the download you'll find the following directories and files:
 
 ```
-|-- Nuxt Black Dashboard PRO
+|-- Nuxt Black Dashboard
     |-- CHANGELOG.md
     |-- README.md
     |-- app.html
@@ -102,11 +102,11 @@ Within the download you'll find the following directories and files:
     |   |   |-- nucleo.woff
     |   |   |-- nucleo.woff2
     |   |-- sass
-    |       |-- black-dashboard-pro.scss
+    |       |-- black-dashboard.scss
+    |       |-- dashboard
     |       |-- vendor
     |           |-- bootstrap-rtl.scss
     |-- components
-    |   |-- AnimatedNumber.vue
     |   |-- Badge.vue
     |   |-- BaseAlert.vue
     |   |-- BaseButton.vue
@@ -116,56 +116,36 @@ Within the download you'll find the following directories and files:
     |   |-- BaseSwitch.vue
     |   |-- BaseTable.vue
     |   |-- CloseButton.vue
-    |   |-- ImageUpload.vue
     |   |-- LoadingPanel.vue
     |   |-- Modal.vue
-    |   |-- NavbarToggleButton.vue
     |   |-- README.md
-    |   |-- Slider.vue
-    |   |-- directoryList.md
     |   |-- index.js
     |   |-- Breadcrumb
     |   |   |-- Breadcrumb.vue
     |   |   |-- BreadcrumbItem.vue
     |   |   |-- RouteBreadcrumb.vue
-    |   |-- Calendar
-    |   |   |-- Calendar.vue
-    |   |   |-- CalendarHeader.vue
     |   |-- Cards
     |   |   |-- Card.vue
-    |   |   |-- StatsCard.vue
     |   |-- Charts
     |   |   |-- BarChart.js
     |   |   |-- LineChart.js
-    |   |   |-- PieChart.js
     |   |   |-- config.js
     |   |   |-- utils.js
-    |   |-- Collapse
-    |   |   |-- Collapse.vue
-    |   |   |-- CollapseItem.vue
     |   |-- Dashboard
-    |   |   |-- CountryMapCard.vue
     |   |   |-- TaskList.vue
     |   |   |-- UserTable.vue
-    |   |-- ExtendedTables
-    |   |   |-- ShoppingTable.vue
-    |   |-- Headers
-    |   |   |-- SweetAlertHeader.vue
     |   |-- Inputs
     |   |   |-- BaseCheckbox.vue
     |   |   |-- BaseInput.vue
     |   |   |-- BaseRadio.vue
     |   |   |-- IconCheckbox.vue
-    |   |   |-- TagsInput.vue
     |   |-- Layout
     |   |   |-- Content.vue
     |   |   |-- ContentFooter.vue
     |   |   |-- DashboardLayout.vue
     |   |   |-- DashboardNavbar.vue
     |   |   |-- LoadingMainPanel.vue
-    |   |   |-- SidebarFixedToggleButton.vue
     |   |   |-- SidebarSharePlugin.vue
-    |   |   |-- SidebarToggleButton.vue
     |   |-- Navbar
     |   |   |-- BaseNav.vue
     |   |   |-- NavbarToggleButton.vue
@@ -177,29 +157,9 @@ Within the download you'll find the following directories and files:
     |   |   |-- SideBar.vue
     |   |   |-- SidebarItem.vue
     |   |   |-- index.js
-    |   |-- Tabs
-    |   |   |-- Tab.vue
-    |   |   |-- Tabs.vue
-    |   |-- Timeline
-    |   |   |-- TimeLine.vue
-    |   |   |-- TimeLineItem.vue
     |   |-- UserProfile
     |   |   |-- EditProfileForm.vue
     |   |   |-- UserCard.vue
-    |   |-- ValidationForms
-    |   |   |-- LoginForm.vue
-    |   |   |-- RangeValidationForm.vue
-    |   |   |-- RegisterForm.vue
-    |   |   |-- TypeValidationForm.vue
-    |   |-- Wizard
-    |   |   |-- FirstStep.vue
-    |   |   |-- SecondStep.vue
-    |   |   |-- ThirdStep.vue
-    |   |   |-- Wizard.vue
-    |   |   |-- WizardTab.vue
-    |   |   |-- throttle.js
-    |   |-- WorldMap
-    |       |-- WorldMap.vue
     |-- lang
     |   |-- ar.js
     |   |-- en.js
@@ -212,52 +172,22 @@ Within the download you'll find the following directories and files:
     |-- pages
     |   |-- .DS_Store
     |   |-- README.md
-    |   |-- calendar.vue
-    |   |-- charts.vue
+    |   |-- google.vue
     |   |-- index.vue
-    |   |-- lock.vue
-    |   |-- login.vue
-    |   |-- pricing.vue
-    |   |-- register.vue
-    |   |-- widgets.vue
+    |   |-- notifications.vue
+    |   |-- regular.vue
+    |   |-- rtl.vue
+    |   |-- starter-page.vue
+    |   |-- typography.vue
+    |   |-- user.vue
     |   |-- GeneralViews
     |   |   |-- NotFoundPage.vue
-    |   |-- components
-    |   |   |-- buttons.vue
-    |   |   |-- grid-system.vue
-    |   |   |-- icons.vue
-    |   |   |-- notifications.vue
-    |   |   |-- panels.vue
-    |   |   |-- sweet-alert.vue
-    |   |   |-- typography.vue
-    |   |-- forms
-    |   |   |-- extended.vue
-    |   |   |-- regular.vue
-    |   |   |-- validation.vue
-    |   |   |-- wizard.vue
-    |   |-- maps
-    |   |   |-- API_KEY.js
-    |   |   |-- full-screen.vue
-    |   |   |-- google.vue
-    |   |   |-- vector-map.vue
-    |   |-- pages
-    |   |   |-- .DS_Store
-    |   |   |-- rtl.vue
-    |   |   |-- timeline.vue
-    |   |   |-- user.vue
-    |   |-- table-list
-    |       |-- extended.vue
-    |       |-- paginated.vue
-    |       |-- regular.vue
-    |       |-- users.js
     |-- plugins
     |   |-- README.md
     |   |-- RTLPlugin.js
     |   |-- dashboard-plugin.js
-    |   |-- full-calendar.js
     |   |-- globalComponents.js
     |   |-- globalDirectives.js
-    |   |-- world-map.js
     |   |-- directives
     |   |   |-- click-ouside.js
     |   |-- extra
