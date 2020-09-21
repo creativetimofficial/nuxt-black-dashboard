@@ -47,7 +47,7 @@ export default {
   css: [
     'assets/css/demo.css',
     'assets/css/nucleo-icons.css',
-    'assets/sass/black-dashboard-pro.scss'
+    'assets/sass/black-dashboard.scss'
   ],
   /*
   ** Plugins to load before mounting the App
