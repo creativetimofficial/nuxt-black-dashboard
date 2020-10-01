@@ -1,8 +1,8 @@
-# [Nuxt Black Dashboard](https://demos.creative-tim.com/nuxt-black-dashboard) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnuxt-black-dashboard-pro&text=Nuxt%20Black%20Dashboard%20PRO%20-%20Premium%20Nuxt%20Admin%20Template&original_referer=https%3A%2F%2Fdemos.creative-tim.com%2Fnuxt-black-dashboard-pro%2F&via=creativetim&hashtags=vuejs%2Cbootstrap%2Cnuxt%2Ccreativetim%2Ccreativetimofficial)
+# [Nuxt Black Dashboard](https://demos.creative-tim.com/nuxt-black-dashboard) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnuxt-black-dashboard&text=Nuxt%20Black%20Dashboard%20-%20Nuxt%20Admin%20Template&original_referer=https%3A%2F%2Fdemos.creative-tim.com%2Fnuxt-black-dashboard%2F&via=creativetim&hashtags=vuejs%2Cbootstrap%2Cnuxt%2Ccreativetim%2Ccreativetimofficial)
 
 
 
-![version](https://img.shields.io/badge/version-1.0.0-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/ct-nuxt-black-dashboard-pro.svg?maxAge=2592000)]() [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/ct-nuxt-black-dashboard-pro.svg?maxAge=2592000)]()  [![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/E4aHAQy)
+![version](https://img.shields.io/badge/version-1.0.0-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/nuxt-black-dashboard.svg?maxAge=2592000)]() [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/nuxt-black-dashboard.svg?maxAge=2592000)]()  [![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/E4aHAQy)
 
 ![Product Gif](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/nuxt-black-dashboard/opt_bd_nuxjs_thumbnail.jpg)
 
@@ -64,7 +64,7 @@ We are very excited to share this dashboard with you and we look forward to hear
 
 | Dashboard | User Profile | Tables | Maps | Notification |
 | --- | --- | --- | --- | --- |
-| [![Start page](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/nuxt-black-dashboard/Dashboard.png)](https://demos.creative-tim.com/nuxt-black-dashboard) | [![User profile page](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/nuxt-black-dashboard/User.png)](https://demos.creative-tim.com/nuxt-black-dashboard/user) | [![Tables page ](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/nuxt-black-dashboard/Tables.png)](https://demos.creative-tim.com/nuxt-black-dashboard/regular) | [![Maps Page](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/nuxt-black-dashboard/Maps.png)](https://demos.creative-tim.com/nuxt-black-dashboard/google) | [![Notification page](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/nuxt-black-dashboard/Notification.png)](https://demos.creative-tim.com/nuxt-black-dashboard-pro/notifications)
+| [![Start page](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/nuxt-black-dashboard/Dashboard.png)](https://demos.creative-tim.com/nuxt-black-dashboard) | [![User profile page](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/nuxt-black-dashboard/User.png)](https://demos.creative-tim.com/nuxt-black-dashboard/user) | [![Tables page ](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/nuxt-black-dashboard/Tables.png)](https://demos.creative-tim.com/nuxt-black-dashboard/regular) | [![Maps Page](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/nuxt-black-dashboard/Maps.png)](https://demos.creative-tim.com/nuxt-black-dashboard/google) | [![Notification page](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/nuxt-black-dashboard/Notification.png)](https://demos.creative-tim.com/nuxt-black-dashboard/notifications)
 
 [View More](https://demos.creative-tim.com/nuxt-black-dashboard).
 
@@ -75,7 +75,7 @@ We are very excited to share this dashboard with you and we look forward to hear
 - [Download from Github](https://github.com/creativetimofficial/nuxt-black-dashboard).
 
 ## Documentation
-The documentation for the Nuxt Black Dashboard is hosted at our [website](https://demos.creative-tim.com/nuxt-black-dashboard-pro/documentation).
+The documentation for the Nuxt Black Dashboard is hosted at our [website](https://www.creative-tim.com/learning-lab/nuxt/overview/black-dashboard).
 
 
 ## File Structure
@@ -214,10 +214,10 @@ At present, we officially aim to support the last two versions of the following 
 ## Resources
 - Demo: https://demos.creative-tim.com/nuxt-black-dashboard
 - Download Page: https://www.creative-tim.com/product/nuxt-black-dashboard
-- Documentation: https://demos.creative-tim.com/nuxt-black-dashboard-pro/documentation
+- Documentation: https://www.creative-tim.com/learning-lab/nuxt/overview/black-dashboard
 - License Agreement: https://www.creative-tim.com/license
 - Support: https://www.creative-tim.com/contact-us
-- Issues: [Github Issues Page](https://github.com/creativetimofficial/ct-nuxt-black-dashboard-pro/issues)
+- Issues: [Github Issues Page](https://github.com/creativetimofficial/nuxt-black-dashboard/issues)
 
 ## Reporting Issues
 We use GitHub Issues as the official bug tracker for the Nuxt Black Dashboard. Here are some advices for our users that want to report an issue:
