@@ -1,5 +1,5 @@
 # Changelog
 
-## [1.0.0] 2018-08-30
-### Stable Original Release
+## [1.0.0] 2020-10-01
 
+### Stable Original Release
