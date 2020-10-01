@@ -33,7 +33,7 @@
 
         <li class="button-container mt-4">
           <a
-            href="https://demos.creative-tim.com/nuxt-black-dashboard-pro/documentation"
+            href="https://www.creative-tim.com/learning-lab/nuxt/overview/black-dashboard"
             target="_blank"
             rel="noopener"
             class="btn btn-default btn-block btn-round"
