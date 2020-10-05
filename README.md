@@ -46,10 +46,10 @@ We are very excited to share this dashboard with you and we look forward to hear
 [<img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/react-logo.jpg" width="60" height="60" />](https://www.creative-tim.com/product/black-dashboard-react)
 [<img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/vue-logo.jpg" width="60" height="60" />](https://www.creative-tim.com/product/vue-black-dashboard)
 [<img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/angular-logo.jpg" width="60" height="60" />](https://www.creative-tim.com/product/black-dashboard-angular)
-[<img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/icon_django.jpg" width="60" height="60" />](https://www.creative-tim.com/product/black-dashboard-django)
+[<img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/django-logo.jpg" width="60" height="60" />](https://www.creative-tim.com/product/black-dashboard-django)
 [<img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/flask-logo.jpg" width="60" height="60" />](https://www.creative-tim.com/product/black-dashboard-flask)
-[<img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/laravel_logo.png" width="60" height="60" />](https://www.creative-tim.com/product/black-dashboard-laravel)
-[<img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/nuxt.jpg" width="60" height="60" />](https://www.creative-tim.com/product/black-dashboard-nuxt)
+[<img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/laravel-logo.jpg" width="60" height="60" />](https://www.creative-tim.com/product/black-dashboard-laravel)
+[<img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/nuxtjs-logo.jpg" width="60" height="60" />](https://www.creative-tim.com/product/black-dashboard-nuxt)
 
 
 | HTML | React | Vue | Angular |
