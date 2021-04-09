@@ -32,11 +32,6 @@ jobs:
         run: |
           npm install
       - name: npm run generate
-        env:
-          BASE_PATH: ${{ secrets.BASE_PATH }}
-          BASE_URL: ${{ secrets.BASE_URL }}
-          CLIENT_ID: ${{ secrets.CLIENT_ID }}
-          GRAPHQL_API: ${{ secrets.GRAPHQL_API }}
         run: |
           npm run generate
       - name: Push to pages
