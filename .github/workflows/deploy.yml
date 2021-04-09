@@ -1,5 +1,7 @@
 name: 'Deploy'
 on:
+  workflow_dispatch:
+    
   push:
     branches:
       - develop
@@ -11,7 +13,7 @@ env:
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 jobs:
-  build-and-deploy:
+  build:
     name: Install, Build and Deploy
     runs-on: ubuntu-latest
     steps:
@@ -28,15 +30,28 @@ jobs:
           key: ${{ runner.os }}-v6-node-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-v6-node-
-      - name: npm install
+
+  deploy:
+    name: Deploy Staging
+    if: github.event.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    environment: 
+      name: staging
+      url: https://bdougie.github.io/nuxt-black-dashboard
+    needs: build
+    steps:
+    - name: npm install
         run: |
           npm install
-      - name: npm run generate
-        run: |
-          npm run generate
-      - name: Push to pages
-        uses: crazy-max/ghaction-github-pages@v1.2.4
-        with:
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: npm run generate
+      run: |
+        npm run generate
+    - name: Push to pages
+      uses: crazy-max/ghaction-github-pages@v1.2.4
+      with:
+        build_dir: dist
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+
+  
