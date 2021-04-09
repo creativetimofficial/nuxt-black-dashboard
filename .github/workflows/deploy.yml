@@ -1,0 +1,47 @@
+name: 'Deploy'
+on:
+  push:
+    branches:
+      - develop
+  schedule:
+    - cron: '*/15 * * * *'
+
+env:
+  NODE_VERSION: '10.x'
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+jobs:
+  build-and-deploy:
+    name: Install, Build and Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - name: Use Node.js ${{ env.NODE_VERSION }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+      - name: Cache node_modules
+        id: cache-primes
+        uses: actions/cache@v2
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-v6-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-v6-node-
+      - name: npm install
+        run: |
+          npm install
+      - name: npm run generate
+        env:
+          BASE_PATH: ${{ secrets.BASE_PATH }}
+          BASE_URL: ${{ secrets.BASE_URL }}
+          CLIENT_ID: ${{ secrets.CLIENT_ID }}
+          GRAPHQL_API: ${{ secrets.GRAPHQL_API }}
+        run: |
+          npm run generate
+      - name: Push to pages
+        uses: crazy-max/ghaction-github-pages@v1.2.4
+        with:
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
