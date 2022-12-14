@@ -31,8 +31,8 @@ input.input-new-tag{
 
 }
 
-@include tag('info', $info)
-@include tag('primary', $primary)
-@include tag('success', $success)
-@include tag('warning', $warning)
-@include tag('danger', $danger)
+@include tag('info', $info);
+@include tag('primary', $primary);
+@include tag('success', $success);
+@include tag('warning', $warning);
+@include tag('danger', $danger);

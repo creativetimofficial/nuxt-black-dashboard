@@ -22,8 +22,8 @@
   }
 }
 
-@include slider('info', $info)
-@include slider('primary', $primary)
-@include slider('success', $success)
-@include slider('warning', $warning)
-@include slider('danger', $danger)
+@include slider('info', $info);
+@include slider('primary', $primary);
+@include slider('success', $success);
+@include slider('warning', $warning);
+@include slider('danger', $danger);
