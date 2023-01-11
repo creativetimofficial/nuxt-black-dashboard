@@ -58,7 +58,7 @@
     }
   }
 
-  &.el-select-dropdown.is-multiple
+  .el-select-dropdown.is-multiple
   .el-select-dropdown__item.selected{
     &.select-#{$type}{
       color: $color;
@@ -78,9 +78,9 @@
   }
 }
 
-@include select('default', $default)
-@include select('info', $info)
-@include select('primary', $primary)
-@include select('success', $success)
-@include select('warning', $warning)
-@include select('danger', $danger)
+@include select('default', $default);
+@include select('info', $info);
+@include select('primary', $primary);
+@include select('success', $success);
+@include select('warning', $warning);
+@include select('danger', $danger);
