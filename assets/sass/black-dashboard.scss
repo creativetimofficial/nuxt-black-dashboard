@@ -1,11 +1,11 @@
 /*!
 
  =========================================================
- * Nuxt Black Dashboard - v1.1.0
+ * Nuxt Black Dashboard - v1.1.1
  =========================================================
 
  * Product Page: https://www.creative-tim.com/product/nuxt-black-dashboard-pro
- * Copyright 2022 Creative Tim (https://www.creative-tim.com)
+ * Copyright 2023 Creative Tim (https://www.creative-tim.com)
 
  * Coded by Creative Tim
 

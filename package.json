@@ -1,6 +1,6 @@
 {
   "name": "nuxt-black-dashboard",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Nuxt Black Dashboard",
   "author": "creativetim",
   "private": true,
@@ -11,26 +11,31 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "@nuxtjs/pwa": "^3.3.5",
-    "bootstrap": "4.3.1",
+    "@nuxtjs/pwa": "3.3.5",
+    "bootstrap": "4.6.2",
     "chart.js": "2.9.4",
     "d3": "7.7.0",
-    "element-ui": "2.15.12",
+    "element-ui": "2.15.13",
     "es6-promise": "4.2.8",
     "fuse.js": "6.6.2",
     "google-maps": "3.2.1",
-    "nuxt": "2.15.8",
+    "nuxt": "2.17.0",
     "nuxt-i18n": "^6.1.0",
     "perfect-scrollbar": "^1.5.5",
     "register-service-worker": "^1.7.2",
     "tween.js": "16.6.0",
     "vue-chartjs": "3.5.1",
-    "vue-i18n": "8.0.0",
+    "vue-i18n": "8.24.2",
     "vue2-transitions": "0.3.0"
   },
   "devDependencies": {
-    "babel-plugin-component": "^1.1.1",
-    "sass": "1.56.2",
+    "babel-plugin-component": "1.1.1",
+    "sass": "1.64.2",
     "sass-loader": "10.1.1"
+  },
+  "overrides": {
+    "consolidate": "1.0.1",
+    "chokidar": "3.5.3",
+    "fsevents": "2.3.2"
   }
 }

@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.1.0] 2023-08-08
+
+- Update dependencies
+- Fix issue when running `npm i`
+
 ## [1.1.0] 2022-01-11
 
 - Update dependencies and devDependencies

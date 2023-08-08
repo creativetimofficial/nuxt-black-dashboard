@@ -1,7 +1,7 @@
 /*!
 
  =========================================================
- * Nuxt Black Dashboard - v1.1.0
+ * Nuxt Black Dashboard - v1.1.1
  =========================================================
 
  * Product Page: https://www.creative-tim.com/product/nuxt-black-dashboard
@@ -14,7 +14,6 @@
  * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
  */
 export default {
-  mode: "universal",
   /*
    ** Headers of the page
    */
@@ -33,13 +32,11 @@ export default {
       { rel: "icon", type: "image/x-icon", href: "/favicon.png" },
       {
         rel: "stylesheet",
-        href:
-          "https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800",
+        href: "https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800",
       },
       {
         rel: "stylesheet",
-        href:
-          "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css",
+        href: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css",
       },
     ],
     bodyAttrs: {
